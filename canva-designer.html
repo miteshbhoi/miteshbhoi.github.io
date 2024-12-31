@@ -1,0 +1,633 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+		<title>Task App</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<style type="text/css">
+			body a {
+				color: #092a35;
+				outline:none;
+				text-decoration:underline;
+			}
+			a:hover {
+				text-decoration:none!important;
+			}
+			.h-u a {
+				text-decoration:none;
+			}
+			.h-u a:hover {
+				text-decoration:underline!important;
+			}
+			a[x-apple-data-detectors] {
+				color:inherit!important; 
+				text-decoration:none!important;
+			}
+			a[href^="tel"]:hover {
+				text-decoration:none!important;
+			}
+			.active-i a:hover,
+			.active-t:hover {
+				opacity:0.8;
+			}
+			.active-i a,
+			.active-t {
+				transition:all 0.3s ease;
+			}
+			a img {
+				border:none;
+			}
+			b, strong {
+				font-weight:700;
+			}
+			p{
+				margin:0;
+			}
+			th {
+				padding:0;
+			}
+			table td {
+				mso-line-height-rule:exactly;
+			}
+			.ns span, 
+			.ns a {
+				color:inherit!important; 
+				text-decoration:none!important; 
+				border:none!important;
+			}
+			.l-fff a {
+				color:#fff;
+			}
+			table {
+				margin:0 auto;
+			}
+			.wrapper {
+				min-width:320px!important;
+			}
+			[style*="Poppins"] {
+				font-family:Poppins, Arial, Helvetica, sans-serif !important;
+			}
+			.cta a {
+				display:block; 
+				padding:14px 12px;
+				text-decoration:none;
+				color:#fff; 
+			}
+			
+			@media only screen and (max-width:650px) {
+				.w-100p {
+					width:100%!important;
+				}
+				.wi-100p img {
+					width:100%!important;
+					height:auto!important;
+				}
+				.tflex {
+					display:block!important;
+					width:100%!important;
+				}
+				.t-c {
+					float:none!important;
+					margin:0 auto!important;
+				}
+				.ta-c {
+					text-align:center!important;
+				}
+				.ta-l {
+					text-align:left!important;
+				}
+				.thold {
+					display:table!important;
+					width:100%!important;
+				}
+				.thead {
+					display:table-header-group!important;
+					width:100%!important;
+				}
+				.trow {
+					display:table-row!important;
+					width:100%!important;
+				}
+				.tfoot {
+					display:table-footer-group!important;
+					width:100%!important;
+				}
+				.hm {
+					display:none!important;
+					width:0!important;
+					height:0!important;
+					padding:0!important;
+					font-size:0!important;
+					line-height:0!important;
+				}
+				.w-a {
+					width:auto!important;
+				}
+				
+				.p-20 {
+					padding:20px!important;
+				}
+				.p-30 {
+					padding:30px!important;
+				}
+				.p-40 {
+					padding:40px!important;
+				}
+				.plr-15 {
+					padding-left:15px!important;
+					padding-right:15px!important;
+				}
+				.pt-0 {
+					padding-top:0!important;
+				}
+				.pt-15 {
+					padding-top:15px!important;
+				}
+				.pt-30 {
+					padding-top:30px!important;
+				}
+				.pb-0 {
+					padding-bottom:0!important;
+				}
+				.pb-10 {
+					padding-bottom:10px!important;
+				}
+				.pb-15 {
+					padding-bottom:15px!important;
+				}
+				.pb-20 {
+					padding-bottom:20px!important;
+				}
+				.pb-30 {
+					padding-bottom:30px!important;
+				}
+				.pb-40 {
+					padding-bottom:40px!important;
+				}
+				.fs-12 {
+					font-size:12px!important;
+				}
+				.fs-16 {
+					font-size:16px!important;
+				}
+				.fs-17 {
+					font-size:17px!important;
+				}
+				.fs-18 {
+					font-size:18px!important;
+				}
+				.fs-24 {
+					font-size:24px!important;
+				}
+				.lh-20 {
+					line-height:20px!important;
+				}
+				.lh-22 {
+					line-height:22px!important;
+				}
+				.lh-24 {
+					line-height:24px!important;
+				}
+				.lh-28 {
+					line-height:28px!important;
+				}
+
+				.wrapper {
+					background:#fffffe!important;
+				}
+				.bg-fff {
+					background:#fffffe!important;
+				}
+				.br-01 {
+					border-radius:5px 5px 0 0!important;
+				}
+				.br-02 {
+					border-radius:0 0 5px 5px!important;
+				}
+				.cta a {
+					display:block; 
+					padding:12px 20px!important;
+					text-decoration:none;
+					color:#ffffff; 
+				}
+			}
+			@media (prefers-dark-interface) {
+				body {
+					-apple-color-filter:none;
+				}
+			}
+		</style>
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+		</style>
+	</head>
+	<body class="bg-fff" style="background:#e5e5e5; margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+		<table class="wrapper" width="100%" style="background:#e5e5e5; min-width:320px;" cellspacing="0" cellpadding="0">
+			<tr>
+				<td style="padding:0 0 20px;">
+					<table class="w-100p" width="650" align="center" style="background:#fffffe; max-width:650px; margin:0 auto;" cellpadding="0" cellspacing="0">
+						<tr>
+							<td role="modules-container">
+								<!-- Header -->
+								<table role="module" width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td class="wi-100p p-40 ta-c" align="left" style="padding:45px 45px 70px 45px;">
+											<a style="text-decoration:none;" href="javascript:;">
+												<img src="eimages/task-app/img-logo.png" width="275" style="width:275px; max-width:275px; vertical-align:top;" alt="" />
+											</a>
+										</td>
+									</tr>
+								</table>
+								<!-- Body -->
+                                <table role="module" width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td>
+											<table width="100%" cellpadding="0" cellspacing="0">
+                                            	<tr>
+													<td class="p-20" style="padding:0 45px 45px 45px;">
+                                                    	<table width="100%" cellpadding="0" cellspacing="0">
+                                                        	<tr>
+                                                                <td class="ta-c" align="left" style="font:700 42px/50px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                    Review new freelancers for <a style="text-decoration:underline; color:#8225f9;" href="javascript:;">Canva design</a>
+                                                                </td>
+                                                          	</tr>
+                                                      	</table>
+                                                  	</td>
+												</tr>
+                                                
+												<tr>
+													<td class="p-20" style="padding:0 45px 45px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+																<td class="wi-100p" align="left" style="padding:30px;background:#f5f3f5;border-radius:8px;">
+																	<table width="100%" cellpadding="0" cellspacing="0">
+                                                                    	<tr>
+                                                                            <th class="tflex" width="36" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="wi-100p ta-c">
+                                                                                            <img editable="true" src="eimages/task-app/img-jet.png" width="36" style="width:36px; max-width:36px; height:auto; vertical-align:top;" alt="go high">
+                                                                                        </td>
+                                                                                    </tr>
+																				</table>
+                                                                            </th>
+                                                                            <th class="tflex" width="20" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="444" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:500 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                            Top freelancers get job offers within 5 mins of DMs for a task.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="font:500 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#8225f9;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#8225f9;" href="javascript:;">LFG</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                                
+												<tr>
+                                                    <td class="p-20" style="padding:0 45px 45px 45px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="border-bottom:1px solid #b7b7b7; font-size:1px; line-height:1px; color:#b7b7b7;">&nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+													<td class="p-20" style="padding:0 45px 45px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+																<td class="wi-100p" align="left">
+																	<table width="100%" cellpadding="0" cellspacing="0">
+                                                                    	<tr>
+                                                                            <th class="tflex" width="75" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="wi-100p ta-c">
+                                                                                            <img editable="true" src="eimages/task-app/img-profile-one.png" width="75" style="width:75px; max-width:75px; height:auto; vertical-align:top;" alt="go high">
+                                                                                        </td>
+                                                                                    </tr>
+																				</table>
+                                                                            </th>
+                                                                            <th class="tflex" width="20" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="295" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:600 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                            <a style="text-decoration:underline; color:#8225f9;" href="javascript:;">James S.</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:500 24px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#434145;" href="javascript:;">Top 1% in Canva Design & Reels Design</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="font:500 24px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#434145;" href="javascript:;">$6/hr • 4 Years Experience</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                     
+                                                                                </table>
+                                                                            </th>
+                                                                            <th class="tflex" width="10" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="100" align="left" style="vertical-align:top;">
+                                                                            	<table align="center" style="margin:0 auto; min-width:100px;" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="active-t cta" align="center" style="background:#ffffff; border:1px solid #8225f9; mso-padding-alt:14px 12px; font:600 24px/32px Poppins, Arial, Helvetica, sans-serif; border-radius:50px; white-space:nowrap;">
+                                                                                            <a style="display:block; padding:14px 12px; text-decoration:none; color:#8225f9; " href="javascript:;">View</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                                
+												<tr>
+                                                    <td class="p-20" style="padding:0 45px 45px 45px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="border-bottom:1px solid #b7b7b7; font-size:1px; line-height:1px; color:#b7b7b7;">&nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+													<td class="p-20" style="padding:0 45px 45px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+																<td class="wi-100p" align="left">
+																	<table width="100%" cellpadding="0" cellspacing="0">
+                                                                    	<tr>
+                                                                            <th class="tflex" width="75" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="wi-100p ta-c">
+                                                                                            <img editable="true" src="eimages/task-app/img-profile-one.png" width="75" style="width:75px; max-width:75px; height:auto; vertical-align:top;" alt="go high">
+                                                                                        </td>
+                                                                                    </tr>
+																				</table>
+                                                                            </th>
+                                                                            <th class="tflex" width="20" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="295" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:600 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                            <a style="text-decoration:underline; color:#8225f9;" href="javascript:;">Julie T.</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:500 24px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#434145;" href="javascript:;">Top 1% in Canva + Social Media Management</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="font:500 24px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#434145;" href="javascript:;">$8/hr • 8 Years Experience</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                     
+                                                                                </table>
+                                                                            </th>
+                                                                            <th class="tflex" width="10" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="100" align="left" style="vertical-align:top;">
+                                                                            	<table align="center" style="margin:0 auto; min-width:100px;" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="active-t cta" align="center" style="background:#ffffff; border:1px solid #8225f9; mso-padding-alt:14px 12px; font:600 24px/32px Poppins, Arial, Helvetica, sans-serif; border-radius:50px; white-space:nowrap;">
+                                                                                            <a style="display:block; padding:14px 12px; text-decoration:none; color:#8225f9; " href="javascript:;">View</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                                
+												<tr>
+                                                    <td class="p-20" style="padding:0 45px 45px 45px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="border-bottom:1px solid #b7b7b7; font-size:1px; line-height:1px; color:#b7b7b7;">&nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+													<td class="p-20" style="padding:0 45px 45px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+																<td class="wi-100p" align="left">
+																	<table width="100%" cellpadding="0" cellspacing="0">
+                                                                    	<tr>
+                                                                            <th class="tflex" width="75" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="wi-100p ta-c">
+                                                                                            <img editable="true" src="eimages/img-profile-one.png" width="75" style="width:75px; max-width:75px; height:auto; vertical-align:top;" alt="go high">
+                                                                                        </td>
+                                                                                    </tr>
+																				</table>
+                                                                            </th>
+                                                                            <th class="tflex" width="20" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="295" align="left" style="vertical-align:top;">
+                                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:600 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                            <a style="text-decoration:underline; color:#8225f9;" href="javascript:;">Jitesh V.</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="padding:0 0 10px 0; font:500 24px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#434145;" href="javascript:;">Top 1% in Canva Design + Social Media Manager</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="ta-c" style="font:500 24px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                        
+                                                                                            <a style="text-decoration:underline; color:#434145;" href="javascript:;">$5/hr • 3 Years Experience</a>
+                                                                                        
+                                                                                        </td>
+                                                                                    </tr>
+                                                                               	</table>
+                                                                            </th>
+                                                                            <th class="tflex" width="10" height="20" style="vertical-align:top;"></th>
+                                                                            <th class="tflex" width="100" align="left" style="vertical-align:top;">
+                                                                            	<table align="center" style="margin:0 auto; min-width:100px;" cellpadding="0" cellspacing="0">
+                                                                                    <tr>
+                                                                                        <td class="active-t cta" align="center" style="background:#ffffff; border:1px solid #8225f9; mso-padding-alt:14px 12px; font:600 24px/32px Poppins, Arial, Helvetica, sans-serif; border-radius:50px; white-space:nowrap;">
+                                                                                            <a style="display:block; padding:14px 12px; text-decoration:none; color:#8225f9;" href="javascript:;">View</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                                
+												<tr>
+                                                    <td class="p-20" style="padding:0 45px 45px 45px;">
+                                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="border-bottom:1px solid #b7b7b7; font-size:1px; line-height:1px; color:#b7b7b7;">&nbsp;</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+													<td class="p-20" style="padding:0 45px 30px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+																<td class="w-a">
+																	<table align="center" cellpadding="0" cellspacing="0">
+																		<tr>
+                                                                            <td class="ta-c" style="padding:0 0 10px 0; font:500 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                                <a style="text-decoration:underline; color:#8225f9;" href="javascript:;">See 11 more unseen Canva Designers</a>
+                                                                            </td>
+                                                                        </tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                                
+                                               	<tr>
+													<td class="p-20" style="padding:0 45px 70px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+																<td class="w-a">
+																	<table align="center" style="margin:0 auto; min-width:140px;" cellpadding="0" cellspacing="0">
+																		<tr>
+																			<td class="active-t cta" align="center" style="background:#8225f9; mso-padding-alt:14px 28px; font:600 24px/40px Poppins, Arial, Helvetica, sans-serif; border-radius:50px;">
+																				<a style="display:block; padding:14px 28px; text-decoration:none; color:#fff;" href="javascript:;">
+																					View All Canva Designers
+																				</a>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+                                                
+												<tr>
+													<td class="p-20" style="padding:0 45px 70px 45px;">
+														<table width="100%" cellpadding="0" cellspacing="0">
+															<tr>
+                                                                <td class="ta-c" style="padding:0 0 10px 0; font:500 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                    Thanks,
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="ta-c" style="font:500 28px/40px Poppins, Arial, Helvetica, sans-serif; color:#434145;">
+                                                                   	The Task App team
+                                                                </td>
+                                                            </tr>
+														</table>
+													</td>
+												</tr>
+                                               	
+                                           	</table>
+										</td>
+									</tr>
+								</table>
+                                
+                                <!-- Footer -->
+								<table role="module" width="100%" cellpadding="0" cellspacing="0">
+									<tr>
+										<td class="p-20" style="padding:0 45px 45px 45px;">
+                                            <table width="100%" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td class="wi-100p" style="padding:30px;background:#f5f3f5;border-radius:8px;">
+                                                    	<table width="100%" cellpadding="0" cellspacing="0">
+                                                        	<tr>
+                                                            	<td class="p-10" style="padding:0 0 15px 0;">
+                                                    				<table width="100%" cellpadding="0" cellspacing="0">
+                                                                        <tr>
+                                                                            <td class="tflex ta-c" style="padding:0 10px;font:500 18px/24px Poppins, Arial, Helvetica, sans-serif; color:#919191;">
+                                                                                <a style="text-decoration:underline; color:#919191;" href="javascript:;">Unsubscribe</a>
+                                                                            </td>
+                                                                            <td class="hm" style="font:500 18px/24px Poppins, Arial, Helvetica, sans-serif; color:#919191;">
+                                                                                |
+                                                                            </td>
+                                                                            <td class="tflex ta-c" style="padding:0 10px;font:500 18px/24px Poppins, Arial, Helvetica, sans-serif; color:#919191;">
+                                                                                <a style="text-decoration:underline; color:#919191;" href="javascript:;">Privacy Policy</a>
+                                                                            </td>
+                                                                            <td class="hm" style="font:500 18px/24px Poppins, Arial, Helvetica, sans-serif; color:#919191;">
+                                                                                |
+                                                                            </td>
+                                                                            <td class="tflex ta-c" style="padding:0 10px;font:500 18px/24px Poppins, Arial, Helvetica, sans-serif; color:#919191;">
+                                                                                <a style="text-decoration:underline; color:#919191;" href="javascript:;">Contact Support</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                               	</td>
+                                                           	</tr>
+                                                            <tr>
+                                                            	<td>
+                                                    				<table width="100%" cellpadding="0" cellspacing="0">
+                                                                        <tr>
+                                                                            <td class="ta-c" style="padding:0 10px;font:500 16px/20px Poppins, Arial, Helvetica, sans-serif; color:#919191;">
+                                                                                ©2024 Task App All rights reserved.
+                                                                            </td>
+                                                                      	</tr>
+                                                                  	</table>
+                                                              	</td>
+                                                          	</tr>
+                                                       	</table>
+                                                    </td>
+                                                </tr>
+                                           	</table>
+                                        </td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
