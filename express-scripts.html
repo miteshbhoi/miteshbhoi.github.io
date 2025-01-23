@@ -102,8 +102,11 @@
 		</style>
         <style>
 			@media (prefers-color-scheme: dark) {
-				body {
+				body, td, p {
 					color: #ffffff !important;	
+				}
+				a {
+					color: #10598f !important;
 				}
 				.bg-main {
 					background-color:#000000 !important;
@@ -122,11 +125,12 @@
 				.bdr-white {
 					border:2px solid #1a1a1a !important;
 				}
-				h1,h2,h6,p,span,a,b,ul,li,ol {
-					color: #1a1a1a !important;
-				}
-				[data-ogsc] body {
+
+				[data-ogsc] body, [data-ogsc] td, [data-ogsc] p {
 					color: #ffffff !important;	
+				}
+				[data-ogsc] a {
+					color: #10598f !important;
 				}
 				[data-ogsc] .bg-main {
 					background-color:#000000 !important;
@@ -145,9 +149,6 @@
 				[data-ogsc] .bdr-white {
 					border:2px solid #1a1a1a !important;
 				}
-				[data-ogsc] h1,[data-ogsc] h2,[data-ogsc] h6,[data-ogsc] p,[data-ogsc] span,[data-ogsc] a,[data-ogsc] b,[data-ogsc] ul,[data-ogsc] li,[data-ogsc] ol {
-					color:#1a1a1a !important;
-				}
 			}
 		</style>
 	</head>
@@ -157,8 +158,8 @@
                 <td style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#f4f4f4;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;" align="center">Call to reschedule soon</td>
             </tr>
             <tr>
-					<td align="center" class="hide" valign="top">
-						<span style="font-family:Arial, Helvetica, sans-serif;font-size:2px;color:#ffffff;font-weight:normal;visibility:hidden;"> &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</span>
+				<td align="center" class="hide" valign="top">
+					<span style="font-family:Arial, Helvetica, sans-serif;font-size:2px;color:#ffffff;font-weight:normal;visibility:hidden;"> &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;</span>
 					</td>
 				</tr>
             <tr>
@@ -209,7 +210,7 @@
                                   	</tr>
                                     <tr>
                                     	<td align="center">
-                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #ffffff">
+                                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #ffffff" class="bg-main">
                                             	<tr>
                                                 	<td align="center">
                                                     	<table width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
@@ -260,7 +261,7 @@
                                                             </tr>
                                                             <tr>
                                                                 <td align="center">
-                                                                    <table width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
+                                                                    <table class="bg-darkmode" width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
                                                                     	<tr>
                                                                          	<td width="20%" class="tflex" align="center" style="vertical-align:middle;">
                                                                             	<table class="bg-white" width="94%" align="center" border="0" cellspacing="0" cellpadding="0">
@@ -271,7 +272,7 @@
                                                                                  	</tr>
                                                                               	</table>
                                                                             </td>
-                                                                            <td width="80%" class="tflex" align="center" style="background-color:#f2f2f2;vertical-align:middle;">
+                                                                            <td width="80%" class="tflex bg-darkmode" align="center" style="background-color:#f2f2f2;vertical-align:middle;">
                                                                            		<table class="bg-darkmode" width="94%" align="center" border="0" cellspacing="0" cellpadding="0">
                                                                                     <tr>
                                                                                         <td class="ta-c" align="center" valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;line-height:20px;padding-top:20px;padding-bottom:20px;text-align:left;color:#747474;">Counseling calls average 30 - 45 minutes.</td>
@@ -305,7 +306,7 @@
                                                             </tr>
                                                             <tr>
                                                                 <td align="center">
-                                                                    <table width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
+                                                                    <table class="bg-darkmode" width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
                                                                     	<tr>
                                                                         	<td width="20%" class="tflex" align="center" style="vertical-align:middle;">
                                                                             	<table class="bg-white" width="94%" align="center" border="0" cellspacing="0" cellpadding="0">
@@ -316,7 +317,7 @@
                                                                                  	</tr>
                                                                               	</table>
                                                                             </td>
-                                                                         	<td width="80%" class="tflex" align="center" style="background-color:#f2f2f2;vertical-align:middle;">
+                                                                         	<td width="80%" class="tflex bg-darkmode" align="center" style="background-color:#f2f2f2;vertical-align:middle;">
                                                                            		<table class="bg-darkmode" width="94%" align="center" border="0" cellspacing="0" cellpadding="0">
                                                                                     <tr>
                                                                                         <td class="ta-c" align="center" valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;line-height:20px;padding-top:20px;padding-bottom:20px;text-align:left;color:#747474;">The pharmacist will need to review all your medications, medical conditions and allergies. Please have these details available for reference.</td>
@@ -350,7 +351,7 @@
                                                             </tr>
                                                             <tr>
                                                                 <td align="center">
-                                                                    <table width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
+                                                                    <table class="bg-darkmode" width="94%" border="0" cellspacing="0" cellpadding="0" align="center" style="width:94%;">
                                                                     	<tr>
                                                                         	<td width="20%" class="tflex" align="center" style="vertical-align:middle;">
                                                                             	<table class="bg-white" width="94%" align="center" border="0" cellspacing="0" cellpadding="0">
@@ -361,7 +362,7 @@
                                                                                  	</tr>
                                                                               	</table>
                                                                             </td>
-                                                                         	<td width="80%" class="tflex" align="center" style="background-color:#f2f2f2;vertical-align:middle;">
+                                                                         	<td width="80%" class="tflex bg-darkmode" align="center" style="background-color:#f2f2f2;vertical-align:middle;">
                                                                            		<table class="bg-darkmode" width="94%" align="center" border="0" cellspacing="0" cellpadding="0">
                                                                                     <tr>
                                                                                         <td class="ta-c" align="center" valign="top" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:400;line-height:20px;padding-top:20px;padding-bottom:20px;text-align:left;color:#747474;">If you schedule a counseling call, you will receive a reminder text and/or email within 24 hours of your scheduled call time.</td>
@@ -410,7 +411,7 @@
                                   	</tr>
                                     <tr>
                                     	<td align="center">
-                                        	<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f2f2f2">
+                                        	<table class="bg-darkmode" width="100%" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#f2f2f2">
                                             	<tr>
 													<td align="center">
                                             			<table width="80%" border="0" cellspacing="0" cellpadding="0" align="center">
